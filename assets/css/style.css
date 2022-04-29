@@ -20,12 +20,13 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  justify-content: flex-start;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 10px;
+  font-weight: bold;
+  color: var(--yellow); 
 } 
 
 header {
@@ -33,12 +34,6 @@ header {
   text-align: center;
   background: var(--blue);
   color: var(--white);
-  z-index: 9999;
-}
-
-header h1 {
-  font-weight: bold;
-  color: var(--yellow); 
 }
 
 nav {
@@ -102,7 +97,7 @@ nav a:hover {
   height: 100%;
 }
 
-.firstwork h2{
+h3{
   display: flex;
   font-size: 48px;
   border-bottom: 3px solid;
@@ -122,15 +117,12 @@ nav a:hover {
   padding: 10px;
   flex: 0 0 200px;
   margin: 20px;
+  text-align: center;
 }
 
 .myfirstwork header {
   border-radius: var(--border-radius) var(--border-radius) 0 0;
   padding: 20px;
-}
-
-.myfirstwork p {
-  text-align: center;
 }
 
 .myfirstwork img {
@@ -146,16 +138,7 @@ nav a:hover {
   opacity: 50%;
 }
 
-.works {
-  flex: 1;
-  background-color: var(--white);
-  padding: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.works h2 {
+h4 {
   display: flex;
   font-size: 48px;
   color: var(--blue);
@@ -164,6 +147,15 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.works {
+  flex: 1;
+  background-color: var(--white);
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .works header {
@@ -202,4 +194,31 @@ nav a:hover {
 
 .application img:hover{
   opacity: 50%;
+}  
+
+h5 {
+  font-size:3rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: var(--yellow); 
+} 
+
+.contact{
+  padding: 40px;
+  text-align: center;
+  background: var(--blue);
 }
+
+.contact a{
+  color: var(--white);
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.contact a:hover{
+  background-color: var(--yellow);
+  color: var(--blue);
+  border-radius: var(--border-radius);
+}
+ 
