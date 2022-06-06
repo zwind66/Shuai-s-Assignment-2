@@ -39,7 +39,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 # 💡💡💡Finished work
 * [The Link of the deployed application.]( https://zwind66.github.io/Shuai-s-Assignment-2/)
 
-
 * [The Link of the GitHub repository.]( https://github.com/zwind66/Shuai-s-Assignment-2.git)
 
 ## Assets
