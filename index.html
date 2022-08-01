@@ -1,99 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Shuai's Portfolio</title>
-  </head> 
 
-  <body>
-    <!-- Header -->
-    <header>
-      <h1>Welcome to my world!</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Shuai's Portfolio</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Welcome to my world!</h1>
+    <p>
+      With great code comes great life!
+    </p>
+  </header>
+
+  <!-- navigation tags  -->
+  <nav>
+    <a href="#about-me">About Me</a>
+    <a href="#my-first-work">My Portfolio</a>
+    <a href="#other-works">other Works</a>
+    <a href="#contact-me">Contact Me</a>
+  </nav>
+
+  <!-- 'about me' section -->
+  <section id="about-me" class="intro">
+    <div class="bio">
+      <h2>Shuai Zuo</h2>
       <p>
-        With great code comes great life!
+        Experienced and self-motivated developer with valuable industry experience and coding enthusiasm.
+        Result-oriented and has a proven track record of working with team members to achieve goals. Having
+        extensive experience in build and maintain websites and web applications, using programming, design
+        tools, and languages such as HTML, CSS, Python and JavaScript to meet both client and end-user needs.
+        Having a strong sense of enterprise and responsibility can face any difficulties and challenges.
       </p>
-    </header>
+    </div>
+    <div class="myphoto">
+      <img src="./assets/images/myphoto.jpg" alt="my rencent photo" />
+    </div>
+  </section>
 
-    <!-- navigation tags  -->
-    <nav>
-      <a href="#about-me">About Me</a>
-      <a href="#my-first-work">My Portfolio</a>
-      <a href="#other-works">other Works</a>
-      <a href="#contact-me">Contact Me</a>
-    </nav>
-  
-    <!-- 'about me' section -->
-    <section id="about-me" class="intro">
-      <div class="bio">
-        <h2>Shuai Zuo</h2>
-        <p>
-          Experienced and self-motivated developer with valuable industry experience and coding enthusiasm. 
-          Result-oriented and has a proven track record of working with team members to achieve goals. Having 
-          extensive experience in build and maintain websites and web applications, using programming, design 
-          tools, and languages such as HTML, CSS, Python and JavaScript to meet both client and end-user needs.
-           Having a strong sense of enterprise and responsibility can face any difficulties and challenges. 
-        </p>
-      </div>
-      <div class="myphoto">
-          <img src="./assets/images/myphoto.jpg" alt="my rencent photo" />
-      </div>
-    </section>
+  <!-- 'my first work' section -->
+  <section id="my-first-work" class="firstwork">
+    <h3>
+      My Portfolio!
+    </h3>
 
-    <!-- 'my first work' section -->
-    <section id="my-first-work" class="firstwork">
-        <h3>
-          My Portfolio!
-        </h3>
-      <div class="myfirstwork">
-        <a href="https://zwind66.github.io/What-s-for-tomorrow/">
-          <header>what is for tomorrow</header>
-        </a>
-        <a href="https://zwind66.github.io/What-s-for-tomorrow/">
-          <img src="./assets/images/WIFT.png" alt="my first application's image" /> 
-        </a>
-        <p>React/JS/Bulma/Apis</p>
-      </div>
-    </section>
-    
-    <!-- 'my other works' section -->
-    <section id="other-works" class="works"> 
-        <h4>
-          other works!
-        </h4> 
-        <section class="application">
-          <a href="https://zwind66.github.io/run-buddy/"><header>Run Buddy</header></a>
-          <a href="https://zwind66.github.io/run-buddy/"><img src="./assets/images/RUN BODY.png" alt="my application2's image"/></a>
-          <p>HTML/CSS</p>
-        </section>
-        <section class="application">
-          <header>LED Wall</header>
-          <img src="./assets/images/application3.png" alt="my application3's image" />
-          <p>Node/loT</p>
-        </section>
-        <section class="application">
-          <header>Pastel Puzzels</header>
-          <img src="./assets/images/application4.png" alt="my application4's image" />
-          <p>MERN Stack</p>
-        </section>
-        <section class="application">
-          <header>Calculator</header>
-          <img src="./assets/images/application5.png" alt="my application5's image" />
-          <p>React/JavaScript/CSS</p>
-        </section>
-    </section>
+    <div class="mysecondwork">
+      <a href="https://read-the-calssics.herokuapp.com/">
+        <header>read the classic</header>
+      </a>
+      <a href="https://read-the-calssics.herokuapp.com/">
+        <img src="./assets/images/RTC.png " alt="my second application's image" />
+      </a>
+      <p>Node/Express/JS/Boostrap/SQL/ORM/MVC</p>
+    </div>
 
-    <!-- 'contact me' section -->
-    <section id="contact-me" class=" contact">
-      <h5>
-       contact me!
-      </h5>
-      <a href="https://www.linkedin.com/in/shuai-zuo-122642109/">linkedin</a>
-      <a href="https://github.com/zwind66">Github</a> 
-      <a href="tel:678-888-8887">tel:678-888-8887</a>
-      <a href="mailto:">Email:szuo1@vols.utk.edu</a>
+    <div class="myfirstwork">
+      <a href="https://zwind66.github.io/What-s-for-tomorrow/">
+        <header>what is for tomorrow</header>
+      </a>
+      <a href="https://zwind66.github.io/What-s-for-tomorrow/">
+        <img src="./assets/images/WIFT.png" alt="my first application's image" />
+      </a>
+      <p>React/JS/Bulma/Apis</p>
+    </div>
+
+  </section>
+
+  <!-- 'my other works' section -->
+  <section id="other-works" class="works">
+    <h4>
+      other works!
+    </h4>
+    <section class="application">
+      <a href="https://zwind66.github.io/run-buddy/">
+        <header>Run Buddy</header>
+      </a>
+      <a href="https://zwind66.github.io/run-buddy/"><img src="./assets/images/RUN BODY.png"
+          alt="my application2's image" /></a>
+      <p>HTML/CSS</p>
     </section>
-    
-   </body>
+    <section class="application">
+      <header>LED Wall</header>
+      <img src="./assets/images/application3.png" alt="my application3's image" />
+      <p>Node/loT</p>
+    </section>
+    <section class="application">
+      <header>Pastel Puzzels</header>
+      <img src="./assets/images/application4.png" alt="my application4's image" />
+      <p>MERN Stack</p>
+    </section>
+    <section class="application">
+      <header>Calculator</header>
+      <img src="./assets/images/application5.png" alt="my application5's image" />
+      <p>React/JavaScript/CSS</p>
+    </section>
+  </section>
+
+  <!-- 'contact me' section -->
+  <section id="contact-me" class=" contact">
+    <h5>
+      contact me!
+    </h5>
+    <a href="https://www.linkedin.com/in/shuai-zuo-122642109/">linkedin</a>
+    <a href="https://github.com/zwind66">Github</a>
+    <a href="tel:678-888-8887">tel:678-888-8887</a>
+    <a href="mailto:">Email:szuo1@vols.utk.edu</a>
+  </section>
+
+</body>
+
 </html>
